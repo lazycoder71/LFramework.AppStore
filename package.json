@@ -21,7 +21,8 @@
     "displayName": "Demo",
     "description": "App Store Demo",
     "path": "Samples~/Demo"
-  },
+  }
+  ],
   "license": "MIT",
   "author": {
     "name": "Lam Nguyen",
