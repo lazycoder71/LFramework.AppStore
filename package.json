@@ -1,0 +1,31 @@
+{
+  "name": "lazycoder.framework.appstore",
+  "displayName": "LFramework.AppStore",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Simple library helps open app store page and in-app rating for Android & iOS",
+  "keywords": [
+    "utility",
+    "unity"
+  ],
+  "bugs": {
+    "url": "https://github.com/lazycoder71/LFramework.AppStore/issues",
+    "email": "lamnd.bounce@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lazycoder71/LFramework.AppStore.git"
+  },
+  "samples": [
+  {
+    "displayName": "Demo",
+    "description": "App Store Demo",
+    "path": "Samples~/Demo"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Lam Nguyen",
+    "email": "lamnd.bounce@gmail.com",
+    "url": "https://www.facebook.com/theycallmelam"
+  }
+}
