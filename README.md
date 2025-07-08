@@ -1,6 +1,8 @@
 # Usages
 
 ```csharp
+using LazyCoder.AppStore;
+
 public class RateExample : MonoBehaviour
 {
         private void Start()
