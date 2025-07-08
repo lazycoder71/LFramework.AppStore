@@ -19,10 +19,10 @@ public class RateExample : MonoBehaviour
 #endif
         }
 		
-	public void OpenStore()
-	{
-            AppStore.OpenStore();
-	}
+		public void OpenStore()
+		{
+			AppStore.OpenStore();
+		}
 }
 ```
 

@@ -1,17 +1,16 @@
-
 using UnityEngine;
 
-#if UNITY_ANDROID && LFRAMEWORK_APPSTORE
+#if UNITY_ANDROID && LAZYCODER_APPSTORE
 using Google.Play.Review;
 using Cysharp.Threading.Tasks;
 using System.Threading;
 #endif
 
-namespace LFramework.AppStore
+namespace LazyCoder.AppStore
 {
     public static class AppStore
     {
-#if UNITY_ANDROID && LFRAMEWORK_APPSTORE
+#if UNITY_ANDROID && LAZYCODER_APPSTORE
         private static ReviewManager s_reviewManager;
         private static PlayReviewInfo s_playReviewInfo;
         private static CancellationTokenSource s_cts;
@@ -55,7 +54,7 @@ namespace LFramework.AppStore
 
         public static void Init()
         {
-#if UNITY_ANDROID && LFRAMEWORK_APPSTORE
+#if UNITY_ANDROID && LAZYCODER_APPSTORE
             s_cts?.Cancel();
             s_cts = new CancellationTokenSource();
 
@@ -82,7 +81,7 @@ namespace LFramework.AppStore
 
         public static void Review()
         {
-#if UNITY_ANDROID && LFRAMEWORK_APPSTORE
+#if UNITY_ANDROID && LAZYCODER_APPSTORE
             s_cts?.Cancel();
             s_cts = new CancellationTokenSource();
 

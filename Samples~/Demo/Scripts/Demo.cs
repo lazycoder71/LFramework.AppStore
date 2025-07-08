@@ -2,12 +2,12 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace LFramework.AppStore.Demo
+namespace LazyCoder.AppStore.Demo
 {
     public class Demo : MonoBehaviour
     {
         [Title("Config")]
-        [SerializeField] private string _iOSAppStoreID = "6737477778";
+        [SerializeField] private string _iOSAppStoreID = "284815942";
 
         [Title("Reference")]
         [SerializeField] private Button _btnOpenStore;
